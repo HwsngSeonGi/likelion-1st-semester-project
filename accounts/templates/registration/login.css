@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  background-color: #FAFAFA;
+  color: #DCDCDC;
+  font-family: Open Sans;
+}
+
+.login-box {
+  margin-top: 100px;
+  text-align: center;
+  width: 430px;
+  height: 380px;
+  background-color: white;
+  padding: 60px; 
+
+}
+
+.logo {
+  height: 70px;
+  margin-bottom: 30px;
+}
+.form-control {
+  margin-bottom: 20px;
+}
+.btn {
+  width: 100%;
+  font-size: 16px;
+}

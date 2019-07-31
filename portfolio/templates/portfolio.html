@@ -1,0 +1,14 @@
+{% load staticfiles %}
+
+<h1>여기는 포트폴리오 페이지임둥 ^--^</h1>
+
+<h3>static사진</h3>
+<img src = "{% static '제목 없음.png'%}" alt = "" weight = 200px height = 200px> 
+
+
+<h3>media사진</h3>
+{% for portfolio in portfolios.all %}
+    <h4>{{ portfolio.title }}</h4>
+    <img src="{{ portfolio.image.url }}" alt="Card image cap" weight = 200px height = 200px>
+    <br>{{ portfolio.description }}
+{% endfor %}
